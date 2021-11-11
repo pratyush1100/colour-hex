@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hex Colour Code Generator</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/png">
+  </head>
+  <body>
+    <div id="loader">
+      <img src="./assets/Spinner-2.gif" alt="" />
+    </div>
+    <nav>
+      <div class="navbar">
+        <div class="logo">HEX <span> Generator</span></div>
+        <ul class="navlinks">
+          <li><a href="#">Gradient Gen</a></li>
+          <li><a href="#">Random Gradient</a></li>
+          <li><a href="#">About</a></li>
+          <div class="contact">Contact</div>
+        </ul>
+        <div id="toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+    <section class="heading">
+      <h1>Click Here to refresh</h1>
+      <button class="RefreshBtn" onclick="location.reload()">
+        <i class="fas fa-redo"></i>
+      </button>
+    </section>
+    <section class="hero">
+      <!-- Colors will appear here -->
+    </section>
+    <div class="copied">
+      <h1></h1>
+      <p>Copied!</p>
+    </div>
+    <footer>
+      Made with <i class="fas fa-heart"></i> by
+      <a href="https://github.com/pratyush1100" target="_Blank"
+        >Pratyush Kumar</a
+      >
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
+
