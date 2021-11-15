@@ -136,7 +136,6 @@ nav .navbar #toggle {
   display: -ms-flexbox;
   display: flex;
   height: 7rem;
-  width: auto;
   overflow-x: hidden;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
