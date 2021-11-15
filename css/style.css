@@ -131,12 +131,12 @@ nav .navbar #toggle {
 }
 
 .heading {
-  margin: 30px 0 10px 80px;
+  margin: 30px 0 10px 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 7rem;
-  width: 100vw;
+  width: auto;
   overflow-x: hidden;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
@@ -340,6 +340,7 @@ footer a:hover {
     padding: 8px 10px;
     border-radius: 3px;
     width: 70px;
+    margin: 0.5rem 2.1rem;
   }
   nav .navbar .navlinks li {
     padding: 8px 10px;
@@ -355,7 +356,7 @@ footer a:hover {
 
 @media screen and (max-width: 768px) {
   html {
-    font-size: 55%;
+    font-size: 57%;
   }
   .hero {
     -ms-grid-columns: auto auto auto;
@@ -368,11 +369,14 @@ footer a:hover {
     -ms-grid-columns: auto auto;
         grid-template-columns: auto auto;
   }
+  .heading h1 {
+    font-size: 2rem;
+  }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   html {
-    font-size: 50%;
+    font-size: 55%;
   }
   .hero {
     -ms-grid-columns: auto;

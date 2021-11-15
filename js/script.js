@@ -17,8 +17,8 @@ for (let i = 0; i < 50; i++) {
   let color = "#" + Math.floor(Math.random() * 16777215).toString(16);
   if (color.length < 7) {
     color = color + "F";
-  } else if (color.length < 6) {
-    color = color + "5";
+  } else if (color.length == 5) {
+    color = color + "F5";
   }
   colorArr.push(color);
 }

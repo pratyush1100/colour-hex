@@ -91,10 +91,10 @@ nav {
 }
 
 .heading {
-  margin: 30px 0 10px 80px;
+  margin: 30px 0 10px 50px;
   display: flex;
   height: 7rem;
-  width: 100vw;
+  width: auto;
   overflow-x: hidden;
   justify-content: flex-start;
   align-items: center;
@@ -248,6 +248,7 @@ footer {
           padding: 8px 10px;
           border-radius: 3px;
           width: 70px;
+          margin: 0.5rem 2.1rem;
         }
         li {
           padding: 8px 10px;
@@ -265,7 +266,7 @@ footer {
 }
 @media screen and (max-width: 768px) {
   html {
-    font-size: 55%;
+    font-size: 57%;
   }
   .hero {
     grid-template-columns: auto auto auto;
@@ -275,10 +276,15 @@ footer {
   .hero {
     grid-template-columns: auto auto;
   }
+  .heading{
+    h1{
+      font-size: 2rem;
+    }
+  }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   html {
-    font-size: 50%;
+    font-size: 55%;
   }
   .hero {
     grid-template-columns: auto;
