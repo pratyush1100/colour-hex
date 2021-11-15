@@ -6,7 +6,7 @@ This Hex colour code generator is for web developer who find hard to get the col
 
 ## Demo
 
-This site is published on GutHub pages you can check out by at [Colour Hex](https://pratyush1100.github.io/colour-hex/).
+This site is published on GitHub pages you can check out by at [Colour Hex](https://pratyush1100.github.io/colour-hex/).
 
 
 ## Features
